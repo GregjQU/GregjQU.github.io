@@ -1,4 +1,4 @@
 name: Example-website
 title: null
 plugins:
-  -jemoji
+  - jemoji
