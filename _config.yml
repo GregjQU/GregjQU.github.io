@@ -2,3 +2,5 @@ name: Example-website
 title: null
 plugins:
   - jemoji
+
+  theme: jekyll-theme-midnight
