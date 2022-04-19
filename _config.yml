@@ -3,3 +3,5 @@ title: null
 plugins:
   - jemoji
   theme:  jekyll-theme-midnight
+
+theme: jekyll-theme-cayman
