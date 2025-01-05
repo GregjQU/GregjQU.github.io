@@ -5,3 +5,5 @@ plugins:
   theme:  jekyll-theme-midnight
 
 theme: jekyll-theme-cayman
+exclude:
+-index.md
