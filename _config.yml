@@ -4,6 +4,5 @@ plugins:
   - jemoji
   theme:  jekyll-theme-midnight
 
-theme: jekyll-theme-cayman
-exclude:
--index.md
+
+exclude: - index.md
