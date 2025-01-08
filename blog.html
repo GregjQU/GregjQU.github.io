@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blog</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .navbar {
+            background-color: #f0f0f0;
+            overflow: hidden;
+            padding: 10px 20px;
+            position: sticky;
+            top: 0;
+            width: 100%;
+        }
+        .navbar a {
+            float: right;
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .navbar a.active {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .blog-container {
+            padding: 20px;
+        }
+        .blog-post {
+            margin-bottom: 20px;
+        }
+        .blog-title {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .blog-date {
+            color: #888;
+        }
+        .blog-excerpt {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="connect.html">Connect with Me</a>
+        <a class="active" href="blog.html">Blog</a>
+        <a href="resume.html">Resume</a>
+        <a href="index.html">Home</a>
+    </div>
+    <div class="blog-container">
+        <h1>Blog</h1>
+        <p>Welcome to my blog! Here, I'll be sharing my thoughts, projects, and experiences in the world of computer science.</p>
+
+        <div class="blog-post">
+            <div class="blog-title"><a href="post1.html">My Journey into Computer Science</a></div>
+            <div class="blog-date">January 7, 2025</div>
+            <div class="blog-excerpt">In this post, I share my experiences and challenges as I transitioned from mechanical engineering to computer science...</div>
+        </div>
+
+        <div class="blog-post">
+            <div class="blog-title"><a href="post2.html">Top 5 Coding Challenges for Beginners</a></div>
+            <div class="blog-date">January 6, 2025</div>
+            <div class="blog-excerpt">Here are some of my favorite coding challenges that helped me improve my skills and learn new concepts...</div>
+        </div>
+    </div>
+</body>
+</html>
