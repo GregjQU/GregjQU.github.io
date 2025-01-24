@@ -3,8 +3,7 @@
 <head>
     <title>Home</title>
     <style> 
-
-body {
+        body {
             margin: 0;
             font-family: Arial, sans-serif;
         }
@@ -44,6 +43,17 @@ body {
             66% { color: blue; text-shadow: 0 0 5px blue; } 
             100% { color: red; text-shadow: 0 0 5px red; }
         } 
+        .content-box {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin: 20px auto;
+            width: 80%;
+            border-radius: 8px;
+        }
+        .content-box h2 {
+            color: #333;
+        }
     </style>
 </head>
 <body>
@@ -57,5 +67,25 @@ body {
     <h1 class="glow">Hello!</h1>
     <p>Welcome to my website!</p>
     <p>My name is Gregory Jean-Baptiste and I am a Computer Science major. I was on a robotics team throughout my 4 years of high school and that inspired me to look into a career in the STEM field. I originally enrolled as a mechanical engineering major during my freshman year but decided to transfer to the computer science major because I felt it would have been a better fit for me and I enjoyed learning how to code while in my previous engineering course. Although writing code could feel hard at times, the end result of making a functioning program is more satisfying than the minor stress that has occurred.</p>
+    
+    <div class="content-box">
+        <h2>Top Programming Languages</h2>
+        <ul>
+            <li>Java</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>C++</li>
+            <li>HTML/CSS</li>
+        </ul>
+    </div>
+
+    <div class="content-box">
+        <h2>Featured Projects</h2>
+        <ul>
+            <li><a href="https://github.com/yourusername/project1" target="_blank">Project 1 Title</a></li>
+            <li><a href="https://github.com/yourusername/project2" target="_blank">Project 2 Title</a></li>
+            <li><a href="https://github.com/yourusername/project3" target="_blank">Project 3 Title</a></li>
+        </ul>
+    </div>
 </body>
 </html>
